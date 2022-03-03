@@ -699,7 +699,9 @@ footer li {
 	font-size: 13px;
 	margin: 6px 0px;
 }
-
+footer li a{
+	color: #fff;
+}
 .newsletter {
 	width: 100%;
 	background-color: #393D42;
