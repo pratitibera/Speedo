@@ -1,0 +1,266 @@
+@media only screen and (min-width: 577px) {
+	.nav-link {
+		padding-right: 20px!important;
+		padding-left: 20px!important;
+	}
+	.top_header_2_icon {
+		position: absolute;
+		top: 17%;
+		left: -10%;
+		background: #212529;
+		padding: 10px;
+		color: #fff;
+		border-radius: 50%;
+		width: 44px;
+	}
+	.book_button {
+		background: #212529;
+		border-radius: 25px 0px;
+		width: 125px;
+		height: 55px;
+		color: #fff;
+		margin: 0px 30px;
+	}
+	.header_icon {
+		padding: 0px 70px;
+	}
+	.dvh-50 {
+		height: 50vh;
+	}
+	.welcome_section {
+		padding: 40px 180px;
+	}
+	#taxi_carousel .owl-stage-outer {
+		margin: 0px 150px;
+	}
+	.choose_mid {
+		border-left: 1px solid #fff;
+		border-right: 1px solid #fff;
+	}
+	.top-footer-row {
+		padding: 22px 120px;
+	}
+	.testimonial_carousel_item {
+		padding-left: 150px;
+	}
+	.fare {
+		text-align: right;
+	}
+	.faqpage_section {
+		max-width: 750px;
+		margin: auto;
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+	.top_header_2_icon {
+		position: absolute;
+		top: 17%;
+		left: -7%;
+		background: #212529;
+		padding: 10px;
+		color: #fff;
+		border-radius: 50%;
+		width: 44px;
+	}
+	.book_button {
+		background: #212529;
+		border-radius: 25px 0px;
+		width: 125px;
+		height: 55px;
+		color: #fff;
+		margin: 0px 5px;
+	}
+	.header_icon {
+		padding: 0px 110px;
+	}
+	.arrowBox {
+		left: 41%;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	/* Global classes for mobile */
+	.mpt-300 {
+		padding-top: 300px;
+	}
+	.mt-150 {
+		margin-top: 100px;
+	}
+	.mfo-35 {
+		font-size: 35px!important;
+	}
+	.mfo-32 {
+		font-size: 32px!important;
+	}
+	.mfo-30 {
+		font-size: 30px!important;
+	}
+	.mfo-28 {
+		font-size: 28px!important;
+	}
+	.mfo-25 {
+		font-size: 25px!important;
+	}
+	.mfo-24 {
+		font-size: 24px!important;
+	}
+	.mfo-22 {
+		font-size: 22px!important;
+	}
+	.mfo-20 {
+		font-size: 20px!important;
+	}
+	.mfo-18 {
+		font-size: 18px!important;
+	}
+	.mfo-17 {
+		font-size: 17px!important;
+	}
+	.mfo-16 {
+		font-size: 16px!important;
+	}
+	.mfo-15 {
+		font-size: 15px!important;
+	}
+	.mfo-14 {
+		font-size: 14px!important;
+	}
+	.mfo-13 {
+		font-size: 13px!important;
+	}
+	.mfo-12 {
+		font-size: 12px!important;
+	}
+	.mfo-11 {
+		font-size: 11px!important;
+	}
+	.mfo-10 {
+		font-size: 10px!important;
+	}
+	.mow-100 {
+		width: 100%!important;
+	}
+	.mow-90 {
+		width: 90%!important;
+	}
+	.mow-50 {
+		width: 50%!important;
+	}
+	.mlh-19 {
+		line-height: 1.9em;
+	}
+	.momt-300 {
+		margin-top: 300px;
+	}
+	.momt-200 {
+		margin-top: 200px;
+	}
+	/* Custom classes */
+	.navbar {
+		background: #000;
+		left: 0;
+		right: 0;
+		z-index: 16;
+	}
+	.landing_cover {
+		margin-top: 73px;
+	}
+	.top_header_2 {
+		width: 100%;
+		border-radius: 50px 50px 50px 50px;
+		height: 75px;
+	}
+	.header_icon {
+		padding: 8px 125px;
+	}
+	.landing_page_cover {
+		top: 18%;
+	}
+	.social_icons div {
+		margin-bottom: 6px;
+	}
+	.social_icons i {
+		font-size: 14px;
+	}
+	.landing_cover .carousel-indicators {
+		top: 25%;
+	}
+	#header_carousel {
+		max-width: 90%;
+		margin-top: -20px;
+	}
+	#taxi_carousel .owl-stage-outer {
+		margin: 0px 50px;
+	}
+	#taxi_carousel .owl-nav .owl-next {
+		right: 5%;
+	}
+	#taxi_carousel .owl-nav .owl-prev {
+		left: 5%;
+	}
+	.welcome_card .tablet {
+		max-width: 100px;
+		font-size: 11px;
+	}
+	.top-footer-row {
+		padding: 38px 10px 28px 10px;
+	}
+	#testimonial_carousel .owl-nav .owl-next,
+	#testimonial_carousel .owl-nav .owl-prev {
+		border: 1px solid #000;
+	}
+	#testimonial_carousel .owl-nav .owl-next i,
+	#testimonial_carousel .owl-nav .owl-prev i {
+		color: #000;
+	}
+	.navbar.navbar2 {
+		box-shadow: 0px 0px 14px 0px rgb(0 0 0 / 31%);
+	}
+	.map_button {
+		position: absolute;
+		bottom: 5%;
+		left: 10%;
+		right: 10%;
+	}
+	.arrowBox {
+		top: 19%;
+		left: 20%;
+		right: 20%;
+		font-size: 14px;
+	}
+	.profile_info_options,
+	.profile_info_section {
+		border-radius: 25px;
+	}
+	#edit_details .col-md-6 {
+		padding: 0;
+	}
+	.coupon_card {
+		background: linear-gradient(0deg, #FFFFFF 75%, #FFC000 25%);
+		box-shadow: 4px 4px 8px rgb(0 0 0 / 25%);
+	}
+	.coupon_card_border_top {
+		bottom: 75%;
+		left: 5%;
+	}
+	.coupon_card_border_bottom {
+		top: 25%;
+		left: 5%;
+	}
+	.landing_cover.position-relative {
+		margin-top: 0;
+	}
+	.landing_cover_image {
+		margin-top: 74px;
+	}
+	.carousel-caption {
+		top: 25%;
+	}
+	.blogs_section .col-md-6.mb-4 {
+		padding: 0;
+	}
+	.driver_documents li {
+		font-size: 13px;
+	}
+}
