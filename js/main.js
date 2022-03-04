@@ -122,7 +122,7 @@ function headerForm(element) {
                            <div>WEIGHT</div>
                            <input type="text" placeholder="Enter package weight here ( Max Weight 20 kg )" name="">
                         </div>
-                        <button class="btn search_button mt-2 text-dark">Search Bikes</button>
+                        <button class="btn search_button mt-2 text-dark" onclick="search_bikes('delivery');">Search Bikes</button>
                      </div>`;
         document.getElementById('landing_page_form_fields_mobile').innerHTML = `<div class="text-center">
                <span class="fo-14 fw-700">Your everyday travel partner</span>
@@ -151,7 +151,7 @@ function headerForm(element) {
                   <div>WEIGHT</div>
                   <input type="text" placeholder="Enter package weight here ( Max Weight 20 kg )" name="">
                </div>
-               <button class="btn search_button mt-2 text-dark">Search Bikes</button>
+               <button class="btn search_button mt-2 text-dark" onclick="search_bikes('delivery');">Search Bikes</button>
             </div>`;
     } else if (element.id == 'd_bike' || element.id == 'm_bike') {
         try{
@@ -185,7 +185,7 @@ function headerForm(element) {
                               <option>1:45AM</option>
                            </select>
                         </div>
-                        <button class="btn search_button mt-2 text-dark">Search Bikes</button>
+                        <button class="btn search_button mt-2 text-dark" onclick="search_bikes('bike');">Search Bikes</button>
                      </div>`;
         document.getElementById('landing_page_form_fields_mobile').innerHTML = `<div class="text-center">
                <span class="fo-14 fw-700">Your everyday travel partner</span>
@@ -210,7 +210,7 @@ function headerForm(element) {
                      <option>1:45AM</option>
                   </select>
                </div>
-               <button class="btn search_button mt-2 text-dark">Search Bikes</button>
+               <button class="btn search_button mt-2 text-dark" onclick="search_bikes('bike');">Search Bikes</button>
             </div>`;
     }
     else if (element.id == 'd_car' || element.id == 'm_car') {
@@ -281,3 +281,20 @@ function showEditDetails() {
 $("#accordion .card-link").click(function () {
     $(this).children().children().toggleClass("fa-minus");
 });
+
+function search_bikes(type){
+    document.getElementById('non_selected').style.display = "none";
+    document.getElementById('is_selected').style.display = "block";
+    if(type == 'bike'){
+        headerForm('d_bike');
+    }
+    else if(type == 'car'){
+        headerForm('d_car');
+    }
+    else if(type == 'auto'){
+        headerForm('d_auto');
+    }
+    if(type == 'delivery'){
+        headerForm('d_packagedelivery');
+    }
+}

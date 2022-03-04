@@ -891,7 +891,8 @@ footer li a{
 }
 
 #register_section,
-#register_section_mobile {
+#register_section_mobile,
+#is_selected {
 	display: none;
 }
 

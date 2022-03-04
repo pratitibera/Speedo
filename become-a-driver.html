@@ -205,13 +205,22 @@
                <!-- Modal body -->
                <div class="modal-body p-0 pb-5">
                   <div class="fo-26 fw-700 font-lato text-center">Reset Password</div>
-                  <div class="fo-16 mt-3 font-lato pr-md-5 pl-md-5 ml-4 mr-4 text-center">Your New Password must be different from previous password</div>
+                  <div class="fo-16 mt-3 font-lato pr-md-5 pl-md-5 ml-4 mr-4 text-center">Enter Your Registered Mobile Number Or Email Address To Get OTP</div>
                   <div class="login_form mt-4 pr-4 pl-4 pr-md-5 pl-md-5">
-                     <div class="txtco fo-13 fw-600">Enter New Password</div>
-                     <input type="password" name="" class="mt-3 w-100">
-                     <div class="txtco fo-13 fw-600 mt-4">Confirm Password</div>
-                     <input type="password" name="" class="mt-3 w-100">
-                     <button class="btn signin_button w-100 fo-16 fw-500 mt-4" data-dismiss="modal">RESET PASSWORD</button>
+                     <div class="txtco fo-13 fw-600">Mobile Number</div>
+                     <input type="text" name="" class="mt-3 w-100">
+                     <div class="d-flex mt-4">
+                        <div class="or_section">
+                           <div class="or_section_div_left"></div>
+                        </div>
+                        <div>OR</div>
+                        <div class="or_section">
+                           <div class="or_section_div_right"></div>
+                        </div>
+                     </div>
+                     <div class="txtco fo-13 fw-600 mt-4">Email Address</div>
+                     <input type="text" name="" class="mt-3 w-100">
+                     <button class="btn signin_button w-100 fo-16 fw-500 mt-4" data-dismiss="modal" data-toggle="modal" data-target="#verify_otp">Send OTP</button>
                   </div>
                </div>
             </div>
@@ -358,7 +367,7 @@
                         </div>
                      </div>
                      <div class="pl-4 pr-4 pr-md-5 pl-md-5">
-                        <button class="btn otp_button w-100 fo-13 fw-600 p-2 mt-4 mb-4" data-dismiss="modal" data-toggle="modal" data-target="#login_with_gmail" onclick="handleModal();">
+                        <button class="btn otp_button w-100 fo-13 fw-600 p-2 mt-4 mb-4" data-dismiss="modal" data-toggle="modal" data-target="#login" onclick="handleModal();">
                         <img src="img/gmail.png" class="mr-3">Login with Gmail Account</button>
                      </div>
                   </div>
@@ -405,7 +414,7 @@
                         </div>
                      </div>
                      <div class="pl-4 pr-4 pr-md-5 pl-md-5">
-                        <button class="btn otp_button w-100 fo-13 fw-600 p-2 mt-4 mb-4" data-dismiss="modal" data-toggle="modal" data-target="#login_with_gmail" onclick="handleModal();">
+                        <button class="btn otp_button w-100 fo-13 fw-600 p-2 mt-4 mb-4" data-dismiss="modal" data-toggle="modal" data-target="#login" onclick="handleModal();">
                         <img src="img/gmail.png" class="mr-3">Login with Gmail Account</button>
                      </div>
                   </div>
@@ -467,7 +476,31 @@
                      <div class="text-center">
                         <div class="fo-13 mt-4">Didn’t receive the code? <a href="#" class="fo-13">Resend</a></div>
                      </div>
-                     <button class="btn signin_button w-100 fo-16 fw-500 mt-4" data-dismiss="modal" data-toggle="modal" data-target="#verify_otp">SUBMIT</button>
+                     <button class="btn signin_button w-100 fo-16 fw-500 mt-4" data-dismiss="modal" data-toggle="modal" data-target="#reset_password">SUBMIT</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="modal fade" id="reset_password">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <!-- Modal Header -->
+               <div class="modal-header pb-0">
+                  <h4></h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+               </div>
+               <!-- Modal body -->
+               <div class="modal-body p-0 pb-5">
+                  <div class="fo-26 fw-700 font-lato text-center">Reset Password</div>
+                  <div class="fo-16 mt-3 font-lato pr-md-5 pl-md-5 ml-4 mr-4 text-center">Your New Password must be different from previous password</div>
+                  <div class="login_form mt-4 pr-4 pl-4 pr-md-5 pl-md-5">
+                     <div class="txtco fo-13 fw-600">Enter New Password</div>
+                     <input type="password" name="" class="mt-3 w-100">
+                     <div class="txtco fo-13 fw-600 mt-4">Confirm Password</div>
+                     <input type="password" name="" class="mt-3 w-100">
+                     <button class="btn signin_button w-100 fo-16 fw-500 mt-4" data-dismiss="modal">RESET PASSWORD</button>
                   </div>
                </div>
             </div>
