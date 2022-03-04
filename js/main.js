@@ -89,6 +89,11 @@ function headerForm(element) {
     $('.landing_page_form .col-3').removeClass('active');
     $(element).addClass('active');
     if (element.id == 'd_packagedelivery' || element.id == 'm_packagedelivery') {
+        try{
+            document.getElementById('bike_search_dropdown').innerHTML = `<option>Scooty</option>
+                <option>Scooty EV</option>`;
+        }
+        catch{}
         document.getElementById('landing_page_form_fields_desktop').innerHTML = `<div class="text-center">
                         <span class="fo-14 fw-700">Your everyday travel partner</span>
                         <br>
@@ -148,6 +153,11 @@ function headerForm(element) {
                <button class="btn search_button mt-2 text-dark">Search Bikes</button>
             </div>`;
     } else if (element.id == 'd_bike' || element.id == 'm_bike') {
+        try{
+            document.getElementById('bike_search_dropdown').innerHTML = `<option>Scooty</option>
+                <option>Scooty EV</option>`;
+        }
+        catch{}
         document.getElementById('landing_page_form_fields_desktop').innerHTML = `<div class="text-center">
                         <span class="fo-14 fw-700">Your everyday travel partner</span>
                         <br>
@@ -198,6 +208,25 @@ function headerForm(element) {
                </div>
                <button class="btn search_button mt-2 text-dark">Search Bikes</button>
             </div>`;
+    }
+    else if (element.id == 'd_car' || element.id == 'm_car') {
+        try{
+            document.getElementById('bike_search_dropdown').innerHTML = `<option>Mini</option>
+                <option>Micro</option>
+                <option>Prime Sedan/SUV</option>
+                <option>Prime XUV</option>
+                <option>Cab EV</option>`;
+        }
+        catch{}
+    }
+    else if (element.id == 'd_auto' || element.id == 'm_auto') {
+        try{
+            document.getElementById('bike_search_dropdown').innerHTML = `<option>Auto Petrol</option>
+                <option>Auto Diesel</option>
+                <option>Auto CNG</option>
+                <option>Auto EV</option>`;
+        }
+        catch{}
     }
 }
 
