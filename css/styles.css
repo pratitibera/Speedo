@@ -25,7 +25,18 @@ select:focus {
 	border: none;
 	outline: none;
 }
-
+.landing_page_form_fields select {
+	/* for Firefox */
+	-moz-appearance: none;
+	/* for Safari, Chrome, Opera */
+	-webkit-appearance: none;
+}
+.clock_icon{
+	position: absolute;
+	top: 20%;
+	right: 5px;
+	color: rgba(33, 37, 41, 0.5);
+}	
 input::placeholder {
 	font-size: 13px;
 }
@@ -51,7 +62,7 @@ ul {
 }
 
 .w-30 {
-	width: 30%;
+	width: 30%!important;
 }
 
 .w-35 {
@@ -59,7 +70,7 @@ ul {
 }
 
 .w-40 {
-	width: 40%;
+	width: 40%!important;
 }
 
 .w-50 {
@@ -441,7 +452,7 @@ ul {
 	border-radius: 0px 3px 3px 0px;
 	border: none;
 	height: 40px;
-	padding-left: 15px;
+	padding-left: 10px;
 }
 
 .landing_page_form_fields select {
@@ -450,7 +461,7 @@ ul {
 	border-radius: 3px;
 	border: none;
 	height: 40px;
-	padding-left: 15px;
+	padding-left: 10px;
 }
 
 .landing_page_form_fields input::placeholder,

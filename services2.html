@@ -133,14 +133,19 @@
                            <div>DROP</div>
                            <input type="text" placeholder="Enter drop for ride estimate" name="">
                         </div>
-                        <div class="row m-0 mt-2">
+                        <div class="row m-0 mt-2 position-relative">
                            <div>DEPART</div>
-                           <select>
+                           <input type="date" name="" class="w-50 fo-13">
+                           <!-- <select>
                               <option>Today</option>
+                           </select> -->
+                           <select class="w-30">
+                              <option>1:00AM</option>
+                              <option>1:30AM</option>
+                              <option>2:00AM</option>
+                              <option>2:30AM</option>
                            </select>
-                           <select>
-                              <option>1:45AM</option>
-                           </select>
+                           <span class="clock_icon"><i class="fas fa-clock"></i></span>
                         </div>
                         <button class="btn search_button mt-2 text-dark">Search Bikes</button>
                      </div>
