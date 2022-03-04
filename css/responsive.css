@@ -80,6 +80,12 @@
 	#landing_page_form_fields_desktop{
 		min-height: 450px;
 	}
+	.moh-500{
+		min-height: 500px!important;
+	}
+	.moh-390{
+		min-height: 390px!important;
+	}
 }
 
 @media only screen and (max-width: 576px) {
