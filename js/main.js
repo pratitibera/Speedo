@@ -91,7 +91,8 @@ function headerForm(element) {
     if (element.id == 'd_packagedelivery' || element.id == 'm_packagedelivery') {
         try{
             document.getElementById('bike_search_dropdown').innerHTML = `<option>Scooty</option>
-                <option>Scooty EV</option>`;
+                <option>Scooty EV</option>
+                <option>Bike</option>`;
         }
         catch{}
         document.getElementById('landing_page_form_fields_desktop').innerHTML = `<div class="text-center">
@@ -154,7 +155,10 @@ function headerForm(element) {
             </div>`;
     } else if (element.id == 'd_bike' || element.id == 'm_bike') {
         try{
-            document.getElementById('bike_search_dropdown').innerHTML = `<option>Scooty</option>
+            document.getElementById('bike_search_dropdown').innerHTML = `<option>Bike CC100</option>
+                <option>Bike CC150</option>
+                <option>Bike CC200</option>
+                <option>Scooty</option>
                 <option>Scooty EV</option>`;
         }
         catch{}
@@ -221,8 +225,7 @@ function headerForm(element) {
     }
     else if (element.id == 'd_auto' || element.id == 'm_auto') {
         try{
-            document.getElementById('bike_search_dropdown').innerHTML = `<option>Auto Petrol</option>
-                <option>Auto Diesel</option>
+            document.getElementById('bike_search_dropdown').innerHTML = `<option>Auto Diesel</option>
                 <option>Auto CNG</option>
                 <option>Auto EV</option>`;
         }
